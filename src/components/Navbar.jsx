@@ -21,8 +21,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            3D<span className="sm:block hidden">| ThreeJs Portfolio</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            3D &nbsp;
+            <span className="sm:block hidden">| ThreeJs Portfolio</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
